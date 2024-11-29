@@ -1,0 +1,12 @@
+<mvc:View
+    controllerName="br.com.lkp.{{appNamespace}}.controller.Main"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns="sap.m"
+    busy="{mainView>/busy}"
+    displayBlock="true">
+
+    <Page id="id{{appNamespace}}Page">
+		<content />
+	</Page>
+
+</mvc:View>
